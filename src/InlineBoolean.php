@@ -1,6 +1,6 @@
 <?php
 
-namespace MarkRassamni\InlineBoolean;
+namespace Binalogue\InlineBoolean;
 
 use Laravel\Nova\Fields\Boolean;
 
