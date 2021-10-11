@@ -28,7 +28,7 @@
 </template>
 
 <script>
-import { Errors, FormField, HandlesValidationErrors } from 'laravel-nova'
+import { FormField, HandlesValidationErrors } from 'laravel-nova'
 
 export default {
   mixins: [FormField, HandlesValidationErrors],
@@ -55,16 +55,11 @@ export default {
   methods: {
     toggle() {
       this.value = !this.value
-      console.log(this.value)
       this.submit()
     },
     async submit() {
-      let formData = new FormData();
 
       let value = this.value ? 1 : 0;
-
-      formData.append(this.field.attribute, value);
-      formData.append('_method', 'PUT');
 
       return Nova.request({
         url: `/nova-api/${this.resourceName}/${this.resourceId}`,
