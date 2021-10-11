@@ -9,7 +9,7 @@
 ## Usage
 
 ```php
-use Binalogue\InlineBoolean\InlineBoolean;
+use DarioBinalogue\InlineBoolean\InlineBoolean;
 
 class MyResource extends Resource
 {

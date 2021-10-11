@@ -1,5 +1,5 @@
 {
-    "name": "binalogue/inline-boolean",
+    "name": "dario-binalogue/inline-boolean",
     "description": "A Laravel Nova field.",
     "keywords": [
         "laravel",
@@ -11,13 +11,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Binalogue\\InlineBoolean\\": "src/"
+            "DarioBinalogue\\InlineBoolean\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Binalogue\\InlineBoolean\\FieldServiceProvider"
+                "DarioBinalogue\\InlineBoolean\\FieldServiceProvider"
             ]
         }
     },

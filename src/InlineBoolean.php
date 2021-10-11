@@ -1,6 +1,6 @@
 <?php
 
-namespace Binalogue\InlineBoolean;
+namespace DarioBinalogue\InlineBoolean;
 
 use Laravel\Nova\Fields\Boolean;
 

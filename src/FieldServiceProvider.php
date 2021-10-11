@@ -1,6 +1,6 @@
 <?php
 
-namespace Binalogue\InlineBoolean;
+namespace DarioBinalogue\InlineBoolean;
 
 use Illuminate\Support\ServiceProvider;
 use Laravel\Nova\Events\ServingNova;

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Binalogue\InlineBoolean;
+namespace DarioBinalogue\InlineBoolean;
 
 use Laravel\Nova\Http\Requests\NovaRequest;
 
